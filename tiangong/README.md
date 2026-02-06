@@ -15,6 +15,10 @@
 - `templates/`：agent 模板
 - `docs/`：使用说明
 
+## 角色协作图（MiniExplorer 实战）
+
+见：`tiangong/assets/tiangong-miniexplorer-roleflow-16x9-zh.png`
+
 ## 快速开始
 ```bash
 cd tiankit
