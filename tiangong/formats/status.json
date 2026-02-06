@@ -1,0 +1,26 @@
+{
+  "project": "Project Name",
+  "phase": "Phase 1.2",
+  "progress": 50,
+  "tasks": [
+    {
+      "id": "task-1",
+      "status": "completed"
+    },
+    {
+      "id": "task-2",
+      "status": "in-progress"
+    }
+  ],
+  "milestones": [
+    {
+      "name": "Milestone 1",
+      "status": "achieved",
+      "date": "2023-10-26"
+    }
+  ],
+  "risks": [
+    "Risk 1: Potential API rate limits."
+  ],
+  "lastUpdated": "2023-10-27T10:30:00Z"
+}

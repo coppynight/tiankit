@@ -1,0 +1,16 @@
+{
+  "taskId": "task-uuid-or-id",
+  "type": "feature | bugfix | refactor | documentation",
+  "description": "Clear and concise description of the task to be performed.",
+  "acceptanceCriteria": [
+    "Criterion 1: The file exists.",
+    "Criterion 2: The function returns X when given Y.",
+    "Criterion 3: Tests pass."
+  ],
+  "priority": "high | medium | low",
+  "assignee": "agent-id-or-role",
+  "context": {
+    "files": ["src/main.ts", "README.md"],
+    "dependencies": ["previous-task-id"]
+  }
+}

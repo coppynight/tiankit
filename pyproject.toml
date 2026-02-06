@@ -1,0 +1,11 @@
+[project]
+name = "tiankit"
+version = "0.1.0"
+description = "Kai's R&D toolkit: tianji (planning) + tiangong (execution)"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = []
+
+[tool.uv]
+# keep empty for now

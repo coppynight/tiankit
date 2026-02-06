@@ -1,0 +1,8 @@
+{
+  "type": "blocker",
+  "taskId": "task-uuid-or-id",
+  "description": "Detailed description of what is blocking progress.",
+  "suggestedSolution": "Proposed way to unblock (e.g., need API key, missing file).",
+  "urgency": "high | medium | low",
+  "timestamp": "2023-10-27T10:00:00Z"
+}

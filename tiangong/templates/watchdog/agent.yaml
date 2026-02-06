@@ -1,0 +1,31 @@
+# Watchdog Agent 配置
+
+name: "{{PROJECT_NAME}}-watchdog"
+description: "Project Guardian - 负责项目团队的生命周期管理与安全审计"
+
+# 推荐使用推理能力强的模型
+model:
+  primary: google-antigravity/claude-opus-4-5-thinking
+  fallbacks:
+    - google-antigravity/claude-sonnet-4-5
+
+# 工作区
+workspace: "{{PROJECT_ROOT}}"
+
+# Session 策略
+# Watchdog 是项目的根，必须常驻
+cleanup: keep
+
+# 能力配置
+capabilities:
+  - sessions_spawn  # 启动 PM
+  - sessions_list   # 监控子进程
+  - sessions_kill   # 终止违规进程
+  - read            # 审计日志
+  - write           # 写审计日志
+  - exec            # 运行检查脚本
+
+# 限制
+constraints:
+  - 不直接参与项目开发
+  - 专注于流程管控和安全

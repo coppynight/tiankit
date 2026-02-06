@@ -1,0 +1,17 @@
+{
+  "taskId": "task-uuid-or-id",
+  "status": "completed | failed | blocked",
+  "evidence": {
+    "files": ["path/to/created/file.ts", "path/to/modified/file.json"],
+    "command": "npm test",
+    "keyLines": [
+      "Test Suites: 1 passed, 1 total",
+      "Tests:       5 passed, 5 total"
+    ]
+  },
+  "changes": [
+    "Created src/utils/helper.ts",
+    "Updated package.json dependency"
+  ],
+  "workerNotes": "Encountered a minor issue with dependencies but resolved it by updating..."
+}

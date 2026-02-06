@@ -1,18 +1,17 @@
-# tianji
+# tianji（天机）
 
-将一个想法（idea）转成可落地的项目计划。
+**定位**：把“一个想法”变成**高质量、可落地、可验收**的项目计划（spec）。
 
-## 输入
-- 一段想法描述
-- 约束（时间/平台/技术栈/资源）
-- 成功标准
-
-## 输出（建议）
+## 输出结构（推荐）
 - Goal / Non-goals
-- Milestones（Phase）
-- Task specs（每个任务的验收标准）
-- Risks & mitigations
-- Smoke test checklist
+- Constraints（平台/时间/资源/依赖）
+- Milestones（Phase 0/1/2...）
+- Task Specs（每个任务：goal + acceptance + context files）
+- Risks & mitigations（风险与对策）
+- Smoke tests（10 分钟冒烟清单）
 
-## 状态
-占位：待实现
+## 模板
+见 `tianji/templates/`。
+
+## CLI（占位）
+后续会提供 `tianji` 命令：输入 idea + 约束，输出可执行计划（Markdown + 结构化 JSON）。
